@@ -38,10 +38,10 @@ public class HeadsOrTails{
 		}
 		System.out.println("\nHeads: " + heads + ", Tails: " + tails);
 		if(heads > tails) {
-			System.out.println("You won!");
+			System.out.println(input + " won!");
 		}
 		else {
-			System.out.println("You lost!");
+			System.out.println(input + " lost!");
 		}
 	}
 }
